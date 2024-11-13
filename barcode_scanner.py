@@ -7,7 +7,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-i",  "--image", required=True,
                              help="path to inpt image")
 
-arg - vars(ap.parse_args())
+arg = vars(ap.parse_args())
 
 # load the image to memory
 
