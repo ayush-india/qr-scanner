@@ -1,7 +1,16 @@
-# qr-scanner
-//paavan
-main
+### HOE TO USE
 
-// ayush also here :)), u can work here if you want to, i'll also make my own branch when i have added enhough stuff too dev branch, i want to simulate real work envorment,
+for getting qr from image use barcode_scanner
+```console
+python3 barcode_scanner.py --image (path to qr)
+```
+NOTE: can use mutliple
 
-later on we will divide our work, and work on our own branches :)), sounds fun to meeee
+for realtime
+```console
+python3 realtime_barcode.py
+```
+it will output it to barcode.csv
+
+TODO:
+make mobile app
